@@ -4,7 +4,7 @@
 
 > this is my first portifolio.
 
-![screenshot](./images/screenshot-mobile-version)
+![screenshot](./screenshot-mobile-version)
 
 home page for mobile skeleton
 
