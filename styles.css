@@ -13,7 +13,7 @@ body {
   position: static;
   width: 150px;
   height: 24px;
-  font-family: Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto , sans-serif;
   font-style: normal;
   font-weight: bold;
   display: flex;
