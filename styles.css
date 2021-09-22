@@ -8,6 +8,25 @@ body {
   background-color: black;
   background-image: url('./images/occ-background-1.jpeg');
 }
+.logo{
+  position: static;
+  width: 150px;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+
+  /* Inside Auto Layout */
+    
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
 
 * { box-sizing: border-box; }
 
@@ -27,7 +46,7 @@ a {
 .header .logo {
   display: block;
   float: left;
-  font-size: 2em;
+  font-size: 18px;
   padding: 10px 20px;
   text-decoration: none;
   margin-top: 8px;
