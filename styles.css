@@ -110,7 +110,7 @@ a {
 .headline {
   background-image: url(./images/background/Group.png);
   background-repeat: no-repeat;
-  background-position: right 0px bottom 12px;
+  background-position: right 0.1px bottom 12px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
