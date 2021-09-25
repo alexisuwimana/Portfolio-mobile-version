@@ -235,17 +235,12 @@ li {
   height: 3658.4px;
   left: 0.001px;
   top: 682px;
-
-  /* decoration */
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 52px;
   color: #1c1a19;
-
-  /* background-image: url(./images/works/img-works-0.svg);
-  background-repeat: no-repeat; */
 }
 
 hr.works-line {
@@ -340,7 +335,7 @@ hr.works-line {
 
 .article-1 {
   background-image: url(./images/background/Placeholder.svg);
-  background-repeat: no-repeat;/* background-position: auto cover; */
+  background-repeat: no-repeat;
   background-size: 100%;
   padding: 20px;
   font-size: 30px;
