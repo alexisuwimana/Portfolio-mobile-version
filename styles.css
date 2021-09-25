@@ -342,7 +342,7 @@ hr.works-line {
 }
 
 .heading-para {
-  font-family: Inter sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -352,7 +352,7 @@ hr.works-line {
 .stories-list-article {
   grid-column-gap: 20px;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  font-family: Inter sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -369,7 +369,7 @@ hr.works-line {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: Inter sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -427,7 +427,7 @@ hr.works-line {
   background: #ff6b00;
   border: none;
   padding: 12px;
-  font-family: Inter, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
