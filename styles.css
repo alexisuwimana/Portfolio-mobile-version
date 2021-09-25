@@ -334,6 +334,7 @@ hr.works-line {
 }
 
 .heading-article {
+  
   font-family: Crete Round sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -342,7 +343,7 @@ hr.works-line {
 }
 
 .heading-para {
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -352,7 +353,7 @@ hr.works-line {
 .stories-list-article {
   grid-column-gap: 20px;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -369,7 +370,7 @@ hr.works-line {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -416,7 +417,7 @@ hr.works-line {
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   margin-bottom: 25px;
 }
 
@@ -427,7 +428,7 @@ hr.works-line {
   background: #ff6b00;
   border: none;
   padding: 12px;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -482,7 +483,7 @@ hr.works-line {
 .framework ul li,
 .skills ul li {
   color: #fff;
-  font-family: Inter, sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
