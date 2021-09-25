@@ -242,8 +242,8 @@ li {
   font-weight: normal;
   font-size: 32px;
   line-height: 52px;
-  color: #1C1A19;
-  align-items: center;
+  color: #1c1a19;
+
   /* background-image: url(./images/works/img-works-0.svg); */
   /* background-repeat: no-repeat; */
 }
@@ -259,20 +259,16 @@ hr.works-line {
   margin: auto;
   width: 86vw;
   padding-top: 30px;
-  /* background-image: url(./images/works/img-works.png); */
 }
 
 .stories-headings {
-  /* text-align: center; */
   margin-left: 28px;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
   line-height: 44px;
 }
-
-
 
 .stories-content {
   width: auto;
