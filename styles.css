@@ -238,8 +238,6 @@ li {
   font-weight: normal;
   font-size: 40px;
   line-height: 52px;
-  /* display: flex; */
-  /* align-items: center; */
 }
 
 hr.works-line {
@@ -287,7 +285,7 @@ hr.works-line {
   background-color: rgb(241, 238, 238);
   grid-column-gap: 20px;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  font-family: Inter;
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -299,23 +297,21 @@ hr.works-line {
 .button-list {
   display: flex;
   flex-direction: row;
-  align-items: center; 
-  padding: 12px; 
+  align-items: center;
+  padding: 12px;
   margin-left: -248px;
   width: auto;
-  height: 48px; 
+  height: 48px;
   background: #FF6B00;
   font-family: inter;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+
   letter-spacing: 00.03em;
   color: white;
-} 
+}
 
 /* articles */
 
@@ -329,7 +325,7 @@ hr.works-line {
 .article-1 {
   background-image: url(./images/background/Placeholder.svg);
   background-repeat: no-repeat;
-  background-position: cover;
+  background-position: auto cover;
   background-size: 100%;
   padding: 20px;
   font-size: 30px;
@@ -337,20 +333,20 @@ hr.works-line {
   color: #fdfdfd;
 }
 
-.stories-list{
+.stories-list {
   color: black;
 }
 
 .heading-article {
-  font-family: Crete Round;
+  font-family: Crete Round sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
   line-height: 44px;
 }
 
-.heading-para{
-  font-family: Inter;
+.heading-para {
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -360,12 +356,12 @@ hr.works-line {
 .stories-list-article {
   grid-column-gap: 20px;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  font-family: Inter;
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
   line-height: 20px;
-  background:rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .button-articles {
@@ -373,20 +369,20 @@ hr.works-line {
   padding: 20px;
   width: 100%;
   height: 48px;
-  background: #FF6B00;
-  margin-top: 0px;
+  background: #ff6b00;
+  /* margin-top: 0.01px; */
 
   /* display: flex; */
 
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  font-family: Inter;
+  font-family: Inter sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 4px;
-  color: #FFFFFF;
+  color: #fff;
   top: 12px;
 }
 
@@ -589,7 +585,7 @@ input[type='email'] {
 }
 
 .contact-social {
-  background: #E5E5E5;
+  background: #e5e5e5;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fc5a09;
@@ -600,27 +596,6 @@ input[type='email'] {
   justify-content: center;
   list-style-type: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 
 @media (max-width: 800px) {
