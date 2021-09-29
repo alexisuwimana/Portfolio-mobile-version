@@ -61,15 +61,15 @@
 
         <div class="Stories-lang">
             <ul class="stories-lang-list">
-                <li class="stories-list">css</li>
-                <li class="stories-list">html</li>
-                <li class="stories-list">bootstrap</li>
-                <li class="stories-list">Ruby</li>
+                <li class="stories-list-1">css</li>
+                <li class="stories-list-2">html</li>
+                <li class="stories-list-3">bootstrap</li>
+                <li class="stories-list-4">Ruby</li>
             </ul>
         </div>
+
         <button type="submit" class="button-list">See Project</button>
         
-
       <div class="articles">
         <div class="article-1">
             <h4 class="heading-article"> Profesional Art Printing Data</h4>
@@ -200,18 +200,20 @@
             </ul>
     </div>
 </section>
+
 <!-- Get in touch section -->
+
 <section>
 <div class="contact-section">
     <div class="message-box">
         <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
     <div class="form-container">
-        <form action="POST">
-            <input type="text" placeholder="Full name">
-            <input type="email" placeholder="Email">
-            <textarea name="contact" id="text-msg" cols="30" rows="5" placeholder="Enter text here"></textarea>
-            <input type="button" value="Get in touch" id="btn-submit">
+        <form action="https://formspree.io/f/mknkennj" method="POST">
+            <input type="text" name="user_name" id="name" maxlength="30" placeholder="Enter your name" required>
+            <input type="email" name="Email" id="email" placeholder="Enter your email" required>
+            <textarea name="contact" id="text-msg" placeholder="Enter text here" maxlength="500" required></textarea>
+            <button id="btn-submit" type="submit">Get in touch</button>
         </form>
     </div>
         <div class="contact-social">
